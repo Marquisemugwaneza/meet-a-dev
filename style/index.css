@@ -1,18 +1,3 @@
-#mainSection {
-    border: 5px solid red;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-
-}
-
-#mainSection .box {
-    border: 1px solid blue;
-    width: 300px;
-
-
-}
-
-#mainSection .middle {
-    width: 700px;
+body {
+    background-color: lightpink;
 }
