@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./style/index.css">
     <link rel="icon" href="./pictures/marquise.png">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -18,10 +19,12 @@
 
             <ul>
                 <img src="./pictures/marquise.png" alt="logo">
-                <li><a href="#About me">Contacts</a></li>
-                <li><a href="#works">Blogs</a></li>
-                <li><a href="#blogs">Works</a></li>
-                <li><a href="#Contacts">About me</a></li>
+                <b>
+                    <li><a href="#About me">Contacts</a></li>
+                    <li><a href="#works">Blogs</a></li>
+                    <li><a href="#blogs">Works</a></li>
+                    <li><a href="#Contacts">About me</a></li>
+                </b>
             </ul>
         </div> <br> <br>
         <!--end of navigation Bar-->
@@ -30,14 +33,14 @@
 
         <div class="salutation">
             <div id="salut">
-                <b>Hi, I am Marquise Mugwaneza <br> Full stack software developer</b>
-                <p>I am a dynamic, hard worker, <br>
+                <b style="font-size: 27px;">Hi, I am Marquise Mugwaneza <br> Full stack software developer</b>
+                <p style="font-size: 25px;">I am a dynamic, hard worker, <br>
                     quick learner, timekeeper and <br>
                     innovative young professional with <br>
                     knowledge and experience of working <br>
                     in multi-cultural environment</p>
                 <br> <br>
-                <button> Download Resume</button>
+                <button style="font-size: 16px;"> <b>Download Resume </b></button>
             </div>
             <!-- Image of profite picture-->
             <div class="pict">
@@ -46,7 +49,7 @@
         </div>
         <!-- Latest posts division-->
         <div class="post">
-            <h6>Latest Post</h6>
+            <h6 style="font-size: 16px;">Latest Post</h6>
             <hr>
             <b>what we have learned in teckdoce after 2 weeks</b>
             <p>8 march, 2023</p>
@@ -59,16 +62,71 @@
 
             <p>Read blog post here <i style='font-size:24px' class='fas'>&#xf061;</i></p>
 
-
-
-
         </div>
 
         <!-- Division of Projects-->
 
         <div class="project">
+            <h3>My Projects</h3>
+
+            <div class="column">
+                <div class="content">
+                    <img src="./pictures/cradle.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                        tantas
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="./pictures/cradle.jpg" alt="Lights" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                        tantas
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="./pictures/cradle.jpg" alt="Lights" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at
+                        tantas
+                    </p>
+                </div>
+            </div>
 
         </div>
+
+        <!-- Division of Subscription-->
+
+
+        <div class="subscri">
+            <form action="/action_page.php">
+                <label for="fname">Subsribe my Newsletter</label> <br>
+                <input type="text" id="fname" name="firstname" placeholder="Your email ..">
+
+                <input type="subscribe" value="Subscribe">
+            </form>
+        </div>
+        <!-- Division of Icons-->
+
+        <footer class="bg-dark-1">
+            <section id="footer" class="py-5">
+                <div class="container text-center">
+                    <a href="#" class="twitter"></a>
+                    <a href="#" class="linkedin"></a>
+                    <a href="#" class="facebook"></a>
+                    <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2023 designed by
+                        Marquise</h6>
+                </div>
+            </section>
+        </footer>
+
+
+
+
 
 
 

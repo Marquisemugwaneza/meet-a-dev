@@ -3,24 +3,23 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 800;
-    height: 1200px;
+    height: 2100px;
     background-color: lightpink;
 }
 
 .square {
     background-color: white;
-    width: 800px;
-    height: 1100px;
+    width: 1090px;
+    height: 2000px;
 }
 
 /* Navigation Bar*/
 .navigation {
     display: block;
-    height: 50px;
+    height: 70px;
     line-height: 50px;
     background-color: white;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 60px;
 }
 
 .navigation ul {
@@ -29,12 +28,14 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-size: 24px;
+
 
 }
 
 img {
-    weight: 70px;
-    height: 70px;
+    weight: 100px;
+    height: 100px;
 
 }
 
@@ -44,10 +45,14 @@ img {
 
 .navigation li a {
     display: inline-block;
-    padding: 8px 8px;
+    padding: 12px 12px;
     background-color: white;
     color: black;
     text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: lightpink;
 }
 
 /* picture and words*/
@@ -77,8 +82,8 @@ img {
 
 .pict img {
     border-radius: 50%;
-    weight: 200px;
-    height: 200px;
+    weight: 250px;
+    height: 250px;
     margin-left: 200px;
 }
 
@@ -86,6 +91,8 @@ img {
 .post {
     align-items: center;
     justify-content: center;
+    margin: 70px;
+    font-size: 18px;
 
 }
 
@@ -93,6 +100,128 @@ img {
 
 .project {
     background-color: pink;
-    width: 800px;
-    height: 250px;
+    width: 1090px;
+    height: 400px;
+}
+
+.project {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.project,
+.project>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+/* Forms for subscription */
+
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=subscribe] {
+    width: 50%;
+    background-color: pink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=subscribe]:hover {
+    background-color: lightpink;
+}
+
+.subscri {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* Footer */
+
+
+#footer .twitter {
+    background-color: rgb(226, 195, 200);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#footer .linkedin {
+    background-color: rgb(226, 195, 200);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+}
+
+#footer .facebook {
+    background-color: rgb(226, 195, 200);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+}
+
+#footer a {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+#footer .twitter:hover {
+    background-position: 0 -56px;
+}
+
+#footer .facebook:hover {
+    background-position: -233px -56px;
+}
+
+#footer .linkedin:hover {
+    background-position: -78px -56px;
+}
+
+
+
+.bg-dark-1 {
+    background-color: pink;
+    margin-top: 50px;
+
 }
