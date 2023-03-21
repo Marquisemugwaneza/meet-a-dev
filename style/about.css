@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 2100px;
+    background-color: lightpink;
+}
+
+.square {
+    background-color: white;
+    width: 1090px;
+    height: 2000px;
+    border-radius: 1%;
+}
+
+/* Navigation Bar*/
+.navigation {
+    display: block;
+    height: 70px;
+    line-height: 50px;
+    background-color: white;
+    margin: 20px 60px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+.navigation li {
+    float: right;
+}
+
+.navigation li a {
+    display: inline-block;
+    padding: 12px 12px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: lightpink;
+}
+
+.navigation button {
+    background-color: rgb(223, 143, 157);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    margin: 2px 2px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 pink, 0 6px 20px 0 rgb(199, 169, 174);
+}
+
+.navigation button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+/* picture and words*/
+.salutation {
+    padding: 12px 12px;
+    margin: 50px;
+    display: flex;
+}
+
+.pict {
+    float: right;
+}
+
+.pict img {
+    border-radius: 50%;
+    weight: 250px;
+    height: 250px;
+    margin-left: 200px;
+}
+
+/* parts of Education background*/
+.post {
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+    font-size: 18px;
+
+}
